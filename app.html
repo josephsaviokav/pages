@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <label for="calendar" class="calendar-label">Semester start date</label>
+        <input type="date" name="calendar" class="calendar start-date">
+        <label for="calendar" class="calendar-label">Semester end date</label>
+        <input type="date" name="calendar" class="calendar end-date">
+        <input type="text" placeholder="Current attendance percent" class="input percent">
+        <input type="text" placeholder="Extra leave hours" class="input leave-hours">
+        <input type="text" placeholder="Extra working hours" class="input work-hours">
+        <div class="week-selector">
+            <button class="weekday" id="Monday">M</button>
+            <button class="weekday" id="Tuesday">T</button>
+            <button class="weekday" id="Wednesday">W</button>
+            <button class="weekday" id="Thursday">T</button>
+            <button class="weekday" id="Friday">F</button>
+            <button class="weekday" id="Saturday">S</button>
+            <button class="weekday" id="Sunday">S</button>
+        </div>
+        <button class="submit-btn">Calculate!</button>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
